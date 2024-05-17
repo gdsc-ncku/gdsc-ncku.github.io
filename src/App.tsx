@@ -15,7 +15,7 @@ import Loading from "./components/Loading/Loading"; // Loading page
 export default function App(): React.ReactElement {
     const [loading, setLoading] = useState(true)
     useEffect(() => {
-        setTimeout(() => setLoading(false), 5800)
+        setTimeout(() => setLoading(false), 1000)
     }, [])
     if (loading) {
         return <Loading/>
