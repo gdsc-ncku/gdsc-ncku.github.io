@@ -31,7 +31,7 @@
     background-repeat:no-repeat;
     animation: 
       caret .4s infinite steps(1),   
-      deleteText calc(var(--n)*.01s) steps(var(--n)) forwards;
+      deleteText calc(var(--n)*.012s) steps(var(--n)) forwards;
   }
   @keyframes deleteText{
     from {background-size:0 200%}
