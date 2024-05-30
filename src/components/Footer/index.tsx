@@ -18,7 +18,7 @@ export default function Footer(): React.ReactElement {
                 <a href="mailto:GDSC.club@gs.ncku.edu.tw">GDSC.club@gs.ncku.edu.tw</a>
                 <p>國立成功大學 台灣台南市東區大學路1號</p>
                 <div className="footer-iconBar">
-                    <a href="https://discord.gg/3AgWYcZXZm" target="_blank" rel="noreferrer">
+                    <a href="https://www.facebook.com/gdscncku" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faFacebook} className="icon"/>
                     </a>
                     <a href="https://www.instagram.com/gdsc.ncku" target="_blank" rel="noreferrer">
@@ -27,7 +27,7 @@ export default function Footer(): React.ReactElement {
                     <a href="https://www.youtube.com/@nckugdsc" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faYoutube} className="icon"/>
                     </a>
-                    <a href="https://discord.com/" target="_blank" rel="noreferrer">
+                    <a href="https://discord.gg/3AgWYcZXZm" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faDiscord} className="icon"/>
                     </a>
                     <a href="https://github.com/gdsc-ncku" target="_blank" rel="noreferrer">
